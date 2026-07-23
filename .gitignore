@@ -1,0 +1,24 @@
+# Данные (скачиваются скриптом prepare_data.py, не храним в git)
+mushrooms_split/
+*.zip
+
+# Веса модели — большие бинарные файлы, лучше хранить через Git LFS
+# или как GitHub Release, а не коммитить напрямую.
+# Уберите эту строку, если всё же хотите закоммитить .h5 файлы.
+models/*.h5
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ОС/IDE
+.DS_Store
+.idea/
+.vscode/
